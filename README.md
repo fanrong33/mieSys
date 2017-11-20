@@ -19,11 +19,11 @@
 * uWSGI
 * Mysql
 
-##3. 系统架构
+## 3. 系统架构
 
 ![系统架构](http://oahjqk3ds.bkt.clouddn.com/Architecture2.jpg)
 
-##4.功能模块
+## 4.功能模块
 
 * Cookie分发：标记当前用户，作为本站唯一标识
 
@@ -36,9 +36,9 @@
 * CTR预估：对召回的广告进行点击率预估，按照点击率从高到低的顺序将广告放在相应广告位上。
 
 
-##5.运行方法
+## 5.运行方法
 
-* a)启动Flask
+* a)启动Flask  
 
 python server.py runserver --host 0.0.0.0
 
